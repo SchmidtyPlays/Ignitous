@@ -13,94 +13,64 @@ p {
     margin-bottom: 5px;
 }
 
-header img {
-    padding: 20px;
-    width: 80px;
-}
-
 .outerBorder {
     display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60vmin;
-    min-width: 200px;
-    max-width: 500px;
-    height: 75vmin;
-    min-height: 350px;
-    max-height: 800px;
-    padding: 30px;
+    width: 95vw;
+    height: 90vh;
+    padding: 0;
     backdrop-filter: blur(4px);
     border-radius: 2rem;
     border: 5px solid #008000;
     filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.5));
 }
 
+.navSideBar {
+    background-color: #008000;
+    min-width: 75px;
+    border-radius: 1rem;
+}
+
+.logo {
+    padding: 20px;
+    width: 80px;
+}
+
+.menuButton {
+    background-color: transparent;
+    border: none;
+    margin: 15px 0 0 15px;
+    width: 40px;
+    filter: invert();
+}
+
+.menuButton:active {
+    opacity: 80%;
+}
+
 .innerBorder {
-    margin: auto;
+    padding: 20px;
+    align-items: start;
+    overflow-y: scroll;
 }
 
 h1 {
+    display: inline-block;
     font-size: x-large;
     text-align: center;
+    margin: 0;
+    overflow-wrap: break-word;
 }
 
-input {
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 8px;
-    width: 100%;
-    max-width: 300px;
-    white-space: nowrap;
-    box-sizing: border-box;
+a {
+    font-size: x-large;
+    padding-left: 10px;
+    color: limegreen;
 }
 
-button {
-    background-color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 8px;
-    width: 100%;
-    max-width: 300px;
-    white-space: nowrap;
-    box-sizing: border-box;
-}
-
-#githubLogo {
-    padding-right: 10px;
-}
-
-#logInGithub {
-    max-width: 300px;
-    display: inline-flex;
-    margin-top: 20px;
-    background-color: rgb(60, 60, 60);
-    color: white;
-    font-weight: bold;
-    font-size: medium;
-    align-items: center;
-    justify-content: center;
-}
-
-#logInGithub:hover {
-    cursor: pointer;
-    background-color: rgb(70, 70, 70);
-    transition: background 0.2s ease;
-}
-
-#logInButton {
-    max-width: 300px;
-    margin-top: 20px;
-    background-color: #008000;
-    color: white;
-    font-weight: bold;
-    font-size: medium;
-}
-
-#logInButton:hover {
-    cursor: pointer;
-    background-color: limegreen;
-    transition: background 0.2s ease;
+section {
+    margin-bottom: 25px;
 }
