@@ -1,5 +1,5 @@
-# FloatingPoint
-This is the GitHub repository for all things FloatingPoint. 
+# Ignitous
+This is the GitHub repository for all things Ignitous. 
 
 <a href="https://www.star-history.com/?repos=schmidtyplays%2Ffloatingpoint&type=date&legend=top-left">
  <picture>
