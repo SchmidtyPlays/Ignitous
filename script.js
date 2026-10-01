@@ -1,10 +1,8 @@
 const availableTexts = [
-    "security",
-    "stability",
-    "privacy",
-    "connection",
-    "safety",
-    "protection"
+    "students",
+    "teachers",
+    "professors",
+    "you"
 ];
 
 var text = "";
