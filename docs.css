@@ -40,10 +40,15 @@ p {
     filter: drop-shadow(1px 1px 10px var(--shadow-color));
 }
 
-.navSideBar {
+#navBar {
     background-color: var(--secondary-color);
     min-width: 60px;
     border-radius: 1rem;
+    z-index: 1;
+    overflow-x: hidden;
+    height: 100%;
+    position: fixed;
+    transition: all 0.5s ease;
 }
 
 .logo {
@@ -52,9 +57,10 @@ p {
 }
 
 .menuButton {
+    float: right;
     background-color: transparent;
     border: none;
-    margin: 7.5px 0 0 7.5px;
+    margin: 10px 10px 0 0;
     width: fit-content;
     min-width: 40px;
     filter: invert();
@@ -65,9 +71,11 @@ p {
 }
 
 .innerBorder {
+    margin-left: 60px;
     padding: 20px;
     align-items: start;
     overflow-y: scroll;
+    transition: all 0.5s ease;
 }
 
 h1 {

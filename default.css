@@ -119,8 +119,6 @@ header {
 }
 
 #changingText {
-    padding-left: 5px;
-    margin-left: 15px;
     color: var(--highlight-color);
     white-space: nowrap;
 }

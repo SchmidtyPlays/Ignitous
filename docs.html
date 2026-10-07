@@ -8,11 +8,11 @@
 </head>
 <body>
     <main class="outerBorder">
-        <div class="navSideBar">
-            <button class="menuButton"><img src="Icons/menu.svg" alt="Menu" draggable="false"></button>
-        </div>
+        <nav id="navBar" style="width: 0">
+            <button class="menuButton" href="javascript:void(0)" onclick="toggleNavBar()"><img src="Icons/menu.svg" alt="Menu" draggable="false"></button>
+        </nav>
 
-        <div class="innerBorder">
+        <div id="main" class="innerBorder" onclick="closeNavBar()">
             
             <section>
                 <h1 id="aboutUs">About Us</h1><a href="#aboutUs">#</a>
@@ -35,4 +35,5 @@
         </div>
     </main>
 </body>
+<script src="docs.js"></script>
 </html>
